@@ -126,6 +126,6 @@ function onRequest(req, res) { // This is function onReques that will handle all
   }
 }
 
-var port = 3000
+var port = 3002
 http.createServer(onRequest).listen(port);
 console.log("Server has started on port "+port);
