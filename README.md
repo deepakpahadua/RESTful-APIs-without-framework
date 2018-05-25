@@ -20,6 +20,7 @@ Your app should now be running on [localhost:3000](http://localhost:5000/).
 ## RESTful APIs
 
 $ 1. http://localhost:3000/employees POST req to add new Employee
+ or http://54.202.121.128:3002/employees POST req to add new Employee
 
 req body : {
 	"EmpName" : "Sumit Jangid",
@@ -28,9 +29,10 @@ req body : {
 }
 
 $ http://localhost:3000/employees GET req to get Employee list
-
+    or  http://54.202.121.128:3002/employees GET req to get Employee list
 
 $ 2. http://localhost:3000/projects POST req to add new project
+    or  http://54.202.121.128:3002/projects GET req to get Employee list
 
 req body : {
 	"ProjName" : "Project10",
@@ -39,9 +41,10 @@ req body : {
 }
 
 $ http://localhost:3000/projects GET req to get Employee list
-
+    or  http://54.202.121.128:3002/projects GET req to get Employee list
 
 $ http://localhost:3000/managers POST req to add new Manager
+    or  http://54.202.121.128:3002/managers GET req to get Employee list
 
 req body : {
 	"ManagName" : "Atinder Pal Singh22",
@@ -49,4 +52,5 @@ req body : {
 	"ManagEmployees" : ["Satyam", "Atul"]
 }
 
-$ http://localhost:3000/manager GET req to get Manager list
+$ http://localhost:3000/managers GET req to get Manager list
+    or  http://54.202.121.128:3002/managers GET req to get Employee list
