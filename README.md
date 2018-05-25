@@ -11,7 +11,7 @@ Download the application on local machine
 Make sure you have [Node.js](http://nodejs.org/) and the npm installed.
 
 ```sh
-$ cd wizniapp1
+$ cd RESTful-APIs-without-framework/
 $ npm install
 
 

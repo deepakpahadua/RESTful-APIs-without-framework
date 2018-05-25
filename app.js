@@ -126,5 +126,6 @@ function onRequest(req, res) { // This is function onReques that will handle all
   }
 }
 
-http.createServer(onRequest).listen(3000);
-console.log("Server has started.");
+var port = 3000
+http.createServer(onRequest).listen(port);
+console.log("Server has started on port "+port);
