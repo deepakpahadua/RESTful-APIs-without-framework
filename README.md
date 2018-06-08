@@ -1,6 +1,4 @@
-# Assignment given
-
-RESTful APIs for Entity/Domain (Projects, Employees and Manager)
+# RESTful APIs for Entity/Domain (Projects, Employees and Manager)
 
 This application is build in core node.js without using any framework i.e Express.JS or Hapi.JS or Sails.JS
 
