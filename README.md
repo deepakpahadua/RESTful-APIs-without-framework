@@ -23,9 +23,9 @@ $ 1. http://localhost:3000/employees POST req to add new Employee
  or http://54.202.121.128:3002/employees POST req to add new Employee
 
 req body : {
-	"EmpName" : "Sumit Jangid",
-	"EmpProject" : "Project1",
-	"EmpManager" : "Manager1"
+	"EmpName" : "E1",
+	"EmpProject" : "P1",
+	"EmpManager" : "M1"
 }
 
 $ http://localhost:3000/employees GET req to get Employee list
@@ -35,9 +35,9 @@ $ 2. http://localhost:3000/projects POST req to add new project
     or  http://54.202.121.128:3002/projects GET req to get Employee list
 
 req body : {
-	"ProjName" : "Project10",
-	"ProjEmpoloyees" : ["Pulkit Bansal"],
-	"ProjManager" : "manager1"
+	"ProjName" : "P1",
+	"ProjEmpoloyees" : ["John"],
+	"ProjManager" : "M1"
 }
 
 $ http://localhost:3000/projects GET req to get Employee list
@@ -47,9 +47,9 @@ $ http://localhost:3000/managers POST req to add new Manager
     or  http://54.202.121.128:3002/managers GET req to get Employee list
 
 req body : {
-	"ManagName" : "Atinder Pal Singh22",
-	"ManagProjects" : ["Project2", "Project4"],
-	"ManagEmployees" : ["Satyam", "Atul"]
+	"ManagName" : "M2",
+	"ManagProjects" : ["P2", "P4"],
+	"ManagEmployees" : ["S", "A"]
 }
 
 $ http://localhost:3000/managers GET req to get Manager list
